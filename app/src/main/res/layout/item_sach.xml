@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="30dp">
+
+    <LinearLayout
+        android:layout_weight="12"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_weight="2"
+            android:layout_margin="5dp"
+            android:id="@+id/img_anhBia"
+            android:layout_width="100dp"
+            android:layout_height="100dp"/>
+
+        <LinearLayout
+            android:layout_weight="7"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/tv_tenSach"
+                android:text="Tên sách"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/tv_namSX"
+                android:text="Năm sản xuất"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/tv_tacgia"
+                android:text="Tác giả"
+                android:textColor="@color/black"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/tv_slBluan"
+                android:text="Số bình luận"
+                android:textColor="@color/black"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:padding="5dp"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/img_editSach"
+                android:text="Edit"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="2dp"
+                android:background="@drawable/img_5"
+                android:layout_marginBottom="10dp"
+                android:layout_width="20dp"
+                android:layout_height="30dp"/>
+            <ImageView
+                android:id="@+id/img_delSach"
+                android:text="Del"
+                android:background="@drawable/img_6"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="2dp"
+                android:layout_width="20dp"
+                android:layout_height="30dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
